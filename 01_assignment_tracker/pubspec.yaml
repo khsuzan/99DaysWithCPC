@@ -1,5 +1,5 @@
 name: assignment_tracker
-description: "A new Flutter project."
+description: "Assignment Tracker"
 publish_to: 'none'
 version: 0.1.0
 
@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  smart_ui_components:
+    path: ../smart_ui_components
 
 dev_dependencies:
   flutter_test:
