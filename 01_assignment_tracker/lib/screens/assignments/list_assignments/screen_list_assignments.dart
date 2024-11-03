@@ -10,6 +10,17 @@ class ScreenListAssignments extends StatefulWidget {
 class _ScreenListAssignmentsState extends State<ScreenListAssignments> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: ListView.builder(itemBuilder: (context, i) {
+        return Card(
+          child: Column(
+            children: [
+              Text("Name"),
+              Text("Description"),
+            ],
+          ),
+        );
+      }),
+    );
   }
 }
