@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of '../../screens.dart';
 
 class ScreenListAssignments extends StatefulWidget {
   const ScreenListAssignments({super.key});
