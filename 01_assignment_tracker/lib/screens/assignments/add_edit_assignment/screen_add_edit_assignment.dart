@@ -10,6 +10,13 @@ class ScreenAddEditAssignment extends StatefulWidget {
 class _ScreenAddEditAssignment extends State<ScreenAddEditAssignment> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Column(
+        children: [
+          InputTextField(hint: "Name of assigment"),
+          InputDateRangeField()
+        ],
+      ),
+    );
   }
 }
